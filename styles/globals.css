@@ -1,9 +1,41 @@
+@import "~antd/dist/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #031422;
+  color: white;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  padding: 0;
+  background: #0C223E;
+  z-index: 1;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2%;
+}
+
+.liquipediaLogo {
+  cursor: pointer;
+  height: 80%;
+  -webkit-filter: brightness(1.7);
+}
+
+.liquipediaLogo:hover {
+  -webkit-filter: brightness(2);
 }
 
 a {

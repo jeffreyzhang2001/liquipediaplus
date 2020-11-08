@@ -1,5 +1,5 @@
 {
-  "name": "liquipedia2",
+  "name": "liquipediaplus",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.8.0",
+    "axios": "^0.21.0",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
