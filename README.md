@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Learn More
+
+Liquipedia+ is a visual query writing tool for esport statistic enthusiasts.  
+Built with Next.js.  
+Created by Jeffrey Zhang, Max Yang, Tanya Nguyen, Evan Luo
 
 ## Getting Started
 
@@ -10,9 +14,3 @@ npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-## Learn More
-
-Liquipedia+ is a visual query writing tool for esport statistic enthusiasts. 
-Created by Jeffrey Zhang, Max Yang, Tanya Nguyen, Evan Luo
