@@ -132,7 +132,7 @@ export default function Home() {
 			})
 			setTimeout(() => {
 				router.reload()
-			}, 150)
+			}, 350)
 		} else if (queryCategory == 'Team') {
 			router.push({
 				pathname: '/players/[player]',
